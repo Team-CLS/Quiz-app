@@ -14,13 +14,11 @@ struct ContentView: View {
     
     var body: some View {
         
-        VStack {
             VStack {
             if number == 9 {
                 Text("Hi")
             } else {
                 Text("Bye")
-            }
             }
         }
     }
