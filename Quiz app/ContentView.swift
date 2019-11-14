@@ -9,8 +9,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var number = 8
+    
     var body: some View {
-        Text("Hi Valentin")
+        
+        VStack {
+            VStack {
+            if number == 9 {
+                Text("Hi")
+            } else {
+                Text("Bye")
+            }
+            }
+        }
     }
 }
 
