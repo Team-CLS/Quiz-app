@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Quiz app
 //
-//  Created by Simone Aagaard on 13/11/2019.
+//  Created by Mike Langballe Jensen on 13/11/2019.
 //  Copyright © 2019 Team CLS. All rights reserved.
 //
 
