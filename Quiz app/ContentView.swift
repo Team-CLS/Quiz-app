@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             TextField("Skriv dit navn her!", text: $firstName).padding(.horizontal, 50)
-            Text("Hi \(firstName)")
+            Text("Hi \(firstName)!")
         }
     }
 }
