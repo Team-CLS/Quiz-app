@@ -10,22 +10,20 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var number = 8
+    @State var firstName = "/()"
     
     var body: some View {
-        
-            VStack {
-            if number == 9 {
-                Text("Hi")
-            } else {
-                Text("Bye")
-            }
+        VStack {
+            TextField("Skriv dit navn her!", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+            Text("Hi")
         }
     }
 }
 
+    
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
+
